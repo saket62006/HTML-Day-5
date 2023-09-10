@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <table border>
+        <caption>Students</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aravind</td>
+                <td>ECE</td>
+            </tr>
+            <tr>
+                <td>Srikar</td>
+                <td>EEE</td>
+            </tr>
+        </tbody>
+    </table><br>
+
+
+    <table border="">
+        <caption>Colspan Example</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>57</td>
+            </tr>
+        </tbody>
+    </table><br>
+
+    <table border="">
+        <caption>Rowspan</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td rowspan="2">57</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+            </tr>
+        </tbody>
+    </table><br>
+
+    <table border="">
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+            <th>Savings for holiday!</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+            <td rowspan="2">$50</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$80</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
